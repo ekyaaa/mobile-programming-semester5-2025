@@ -11,3 +11,5 @@ Flutter sangat fleksibel sekali dan sangat penting untuk meminimalisir baris dal
 #No 4 : Buatlah penjelasan dan contoh eksekusi kode tentang perbedaan Null Safety dan Late variabel !
 ? artinya memberi tahu bahwa variabel ini bisa null
 late variabel adalah meyakinkan proyek bahwa kita pasti akan meletakkan nilai di variabel ini maka sebelum variabel ini ada nilai, variabel ini tidak akan bisa dipanggil.
+
+![soal_2](img/soal_2.png)
