@@ -1,6 +1,6 @@
 #No 1 : Modifikasilah kode pada baris 3 di VS Code atau Editor Code favorit Anda berikut ini agar mendapatkan keluaran (output) sesuai yang diminta!
 
-![alt text](https://github.com/ekyaaa/mobile-programming-semester5-2025/codelab02_dart/img/soal_1.png)
+![soal_1](img/soal_1.png)
 
 #No 2 : Mengapa sangat penting untuk memahami bahasa pemrograman Dart sebelum kita menggunakan framework Flutter ? Jelaskan!
 Penting, Sama seperti belajar berbicara sebelum belajar berpidato
