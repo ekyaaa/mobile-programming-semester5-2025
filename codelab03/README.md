@@ -8,7 +8,7 @@ Modul Pada pengantar bahasa pemrograman Dart bagian 3 ini, Saya akan melakukan p
 
 #### Langkah 1 :
 
-```http
+```
   String test = "test2";
 if (test == "test1") {
    print("Test1");
@@ -34,7 +34,7 @@ Pertama tama variabel test diinisiasi dengan String test2. Karena terkena if dan
 
 Tambahkan kode program berikut, lalu coba eksekusi (Run) kode Anda.
 
-```http
+```
   String test = "true";
   if (test) {
     print("Kebenaran");
@@ -49,7 +49,7 @@ Hasil :
 Apa yang terjadi ? Jika terjadi error, silakan perbaiki namun tetap menggunakan if/else.
 
 Error karena true diinisiasi sebagai String dengan "". Untuk menjalankannya harus ditambahkan == "true"
-```http
+```
   String test = "true";
   if (test == 'true') {
     print("Kebenaran");
@@ -65,7 +65,7 @@ Hasil :
 
 #### Langkah 1 :
 
-```http
+```
 main() {
   while (counter < 33) {
     print(counter);
@@ -82,7 +82,7 @@ Silakan coba eksekusi (Run) kode pada langkah 1 tersebut. Apa yang terjadi? Jela
 
 
 Tidak ada variabel counter yang di inisiasi, sehingga ketika dipanggil error karena tidak ada variabel 'counter'.
-```http
+```
 main() {
   int counter = 0;
   while (counter < 33) {
@@ -100,7 +100,7 @@ Hasil :
 
 Tambahkan kode program berikut, lalu coba eksekusi (Run) kode Anda.
 
-```http
+```
   do {
     print(counter);
     counter++;
@@ -122,7 +122,7 @@ Tidak ada error karena counter sudah ditambahkan pada langkah 2.
 
 #### Langkah 1 :
 
-```http
+```
 void main() {
   for (Index = 10; index < 27; index) {
     print(Index);
@@ -137,7 +137,7 @@ Silakan coba eksekusi (Run) kode pada langkah 1 tersebut. Apa yang terjadi? Jela
 ![App Screenshot](img/p3_l1.png)
 
 Penamaan variabel tidak ada tipe data dan tidak jelas (satu Index dan satu index). Untuk memperbaikinya kita bisa menginisiasi variabel didalam for. Penggunaan for pada umumnya terdapat ++ jika ingin indexnya bertambah, tetapi berhubung indikasi 'error' tidak ada dan hal seperti ini juga bisa digunakan untuk ddos, maka saya biarkan.
-```http
+```
 void main() {
   for (int index = 10; index < 27; index) {
     print(index);
@@ -153,7 +153,7 @@ Hasil :
 
 Tambahkan kode program berikut, lalu coba eksekusi (Run) kode Anda.
 
-```http
+```
 If (Index == 21) break;
 Else If (index > 1 || index < 7) continue;
 print(index);
@@ -165,7 +165,7 @@ Apa yang terjadi ? Jika terjadi error, silakan perbaiki namun tetap menggunakan 
 
 Error karena sintaksnya salah, yang benar adalah kode dibawah. 
 
-```http
+```
 void main() {
   for (int index = 10; index < 27; index++) {
     print(index);
@@ -186,7 +186,7 @@ Kegunaan break adalah untuk menghentikan suatu proses pengulangan, sedangkan con
 ## Tugas Praktikum
 Buatlah sebuah program yang dapat menampilkan bilangan prima dari angka 0 sampai 201 menggunakan Dart. Ketika bilangan prima ditemukan, maka tampilkan nama lengkap dan NIM Anda.
 
-```http
+```
 main() {
   for (var i = 0; i < 202; i++) {
     if (i % 2 != 0 && i % 3 != 0 || (i == 2 || i == 3)) {
