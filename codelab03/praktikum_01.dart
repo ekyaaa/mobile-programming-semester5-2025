@@ -1,5 +1,5 @@
 main() {
-  /// Praktikum 1 - Langkah 1
+  /// Langkah 2
   // String test = "test2";
 
   // if (test == "test1") {
@@ -12,9 +12,9 @@ main() {
 
   // if (test == "test2") print("Test2 again");
 
-  /// Praktikum 1 - Langkah 3
+  /// Langkah 3
   String test = "true";
-  if (test) {
+  if (test == 'true') {
     print("Kebenaran");
   }
 }
