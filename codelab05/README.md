@@ -25,7 +25,7 @@
 ![alt text](img/7.png)
 ![alt text](img/8.png)
 
-### Langkah 5
+### Langkah 5       
 ![alt text](img/9.png)
 
 ### Langkah 6
